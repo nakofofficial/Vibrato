@@ -1,4 +1,6 @@
-Content.makeFrontInterface(200, 200);function onNoteOn()
+Content.makeFrontInterface(200, 200);
+
+Console.print("NVKOF");function onNoteOn()
 {
 	
 }
