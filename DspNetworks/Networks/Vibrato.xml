@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Network ID="Vibrato" AllowCompilation="1" Version="0.0.0">
+  <Node FactoryPath="container.chain" ID="Vibrato" Bypassed="0" ShowParameters="1">
+    <Nodes>
+      <Node ID="Nakof_Vibrato" FactoryPath="project.Nakof_Vibrato" Bypassed="0"
+            ShowParameters="1" Frozen="0">
+        <Parameters>
+          <Parameter ID="Rate" MinValue="0.0" MaxValue="3.7" StepSize="0.1" Automated="1"/>
+          <Parameter ID="Depth" MinValue="0.0" MaxValue="1.0" Automated="1"/>
+        </Parameters>
+      </Node>
+    </Nodes>
+    <Parameters>
+      <Parameter ID="RateTest" MinValue="0.0" MaxValue="3.7" Value="3.7">
+        <Connections>
+          <Connection NodeId="Nakof_Vibrato" ParameterId="Rate"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Depth Test" MinValue="0.0" MaxValue="1.0" Value="0.47676025390625">
+        <Connections>
+          <Connection NodeId="Nakof_Vibrato" ParameterId="Depth"/>
+        </Connections>
+      </Parameter>
+    </Parameters>
+  </Node>
+</Network>

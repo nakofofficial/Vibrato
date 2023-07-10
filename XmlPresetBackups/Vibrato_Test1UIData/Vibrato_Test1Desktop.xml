@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="0.0" y="0.0" width="200.0"
+             height="200.0" itemColour2="3019898880" itemColour="1979711488"
+             opaque="1" borderSize="0.0" borderRadius="0.0"/>
+  <Component type="ScriptSlider" id="Knob1" x="60.0" y="50.0" width="80.0"
+             height="30.0" text="R" max="3.700000047683716" middlePosition="1.639999985694885"
+             processorId="HardcodedMasterFX1" parameterId="Rate"/>
+  <Component type="ScriptSlider" id="Knob2" x="60.0" y="120.0" width="80.0"
+             height="30.0" text="D" middlePosition="0.5" processorId="HardcodedMasterFX1"
+             parameterId="Depth"/>
+</ContentProperties>
